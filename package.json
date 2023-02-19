@@ -1,11 +1,10 @@
 {
   "name": "liblabtesttypescrypt",
-  "version": "1.0.30",
+  "version": "1.0.110",
   "description": "",
-  "main": "lor-api-consumer.ts",
-  "types": "lib/lor-api-consumer.d.ts",
+  "main": "lor-api-consumer.js",
+  "types": "lor-api-consumer.d.ts",
   "directories": {
-    "lib": "lib",
     "models": "models",
     "controllers": "controllers",
     "test": "test"

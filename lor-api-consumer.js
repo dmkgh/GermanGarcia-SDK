@@ -37,9 +37,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 exports.__esModule = true;
 exports.LorConsumer = void 0;
-var movies_1 = require("../controllers/movies");
-var movie_1 = require("../controllers/movie");
-var moviequote_1 = require("../controllers/moviequote");
+var movies_1 = require("./controllers/movies");
+var movie_1 = require("./controllers/movie");
+var moviequote_1 = require("./controllers/moviequote");
 // The LorConsumer class has a private property called base_url that represents the base URL of the movie API. It is passed as an argument to the constructor when creating a new instance of the class.
 // Each of the three methods creates an instance of a controller class, passing in the base_url property to the constructor, and uses that instance to make a request to the movie API. The response data is then returned as a promise.
 var LorConsumer = /** @class */ (function () {

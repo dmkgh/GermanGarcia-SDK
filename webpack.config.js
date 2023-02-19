@@ -1,11 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  entry: './lib/lor-api-consumer.ts',
+  entry: './lor-api-consumer.js',
   output: {
-    filename: 'LOR_SDK.js',
+    filename: 'lor-api-consumer.ts',
     path: path.resolve(__dirname, 'dist'),
-    library: 'LorConsumer',
+    library: 'liblabtesttypescrypt',
     libraryTarget: 'umd',
   },
   module: {
@@ -13,7 +13,6 @@ module.exports = {
       {
         test: /\.ts$/,
         use: 'babel-loader',
-        exclude: /node_modules/,
       },
     ],
   },

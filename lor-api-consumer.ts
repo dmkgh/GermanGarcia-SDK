@@ -1,6 +1,6 @@
-import { MoviesController } from "../controllers/movies";
-import { MovieController } from "../controllers/movie";
-import { MovieQuoteController } from "../controllers/moviequote";
+import { MoviesController } from "./controllers/movies";
+import { MovieController } from "./controllers/movie";
+import { MovieQuoteController } from "./controllers/moviequote";
 
 // The LorConsumer class has a private property called base_url that represents the base URL of the movie API. It is passed as an argument to the constructor when creating a new instance of the class.
 // Each of the three methods creates an instance of a controller class, passing in the base_url property to the constructor, and uses that instance to make a request to the movie API. The response data is then returned as a promise.
